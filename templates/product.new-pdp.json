@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "c_main_product_PMAXMW": {
+      "type": "c-main-product",
+      "blocks": {
+        "title_hHxHi4": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_LeD6xT": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_8nnrGh": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector_8LcHwT": {
+          "type": "quantity_selector",
+          "settings": {
+            "use_predefined_quantities": true
+          }
+        },
+        "buy_buttons_g8ErK8": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_MbidRJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "use_traditional_collapsible_tab": true,
+            "active_border_top": true,
+            "heading": "WHAT’S IN YOUR BOX?",
+            "icon": "none",
+            "content": "<p>BOTIVO APERITIF: Raw apple cider vinegar, wildflower honey, fructose, water, rosemary, thyme, gentian, wormwood & orange zest (May contain sulphites). 0.1% ABV BLURRED VINES’ SPARK: Cold brew botanical blend of; (guayusa, black tea, green tea), redcurrant</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_e64fLc": {
+          "type": "collapsible_tab",
+          "settings": {
+            "use_traditional_collapsible_tab": true,
+            "active_border_top": false,
+            "heading": "INGREDIENTS & ALLERGENS",
+            "icon": "none",
+            "content": "<p>BOTIVO APERITIF: Raw apple cider vinegar, wildflower honey, fructose, water, rosemary, thyme, gentian, wormwood & orange zest (May contain sulphites). 0.1% ABV BLURRED VINES’ SPARK: Cold brew botanical blend of; (guayusa, black tea, green tea), redcurrant juice, strawberry juice, fermented fruit wine (water, apricot juice concentrate, white grape juice concentrate, wine yeast), botanical extracts of; (hibiscus flower, green tea (L-theanine), schisandra berry, cayenne pepper), gum acacia, white wine vinegar, wine tannin, natural flavours, tartaric acid, malic acid, mineral salts of; (potassium, magnesium), vitamins; (C, B3, B6, B7, B12). BLACK LINES’ SHIRLEY TEMPLE: Grenadine, Raspberry Soda, Fresh Lemon,Blood Orange, Bitters. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_WPXL3J": {
+          "type": "collapsible_tab",
+          "settings": {
+            "use_traditional_collapsible_tab": true,
+            "active_border_top": false,
+            "heading": "NUTRITIONAL INFORMATION",
+            "icon": "none",
+            "content": "<p><strong>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\"</strong></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_hHxHi4",
+        "price_LeD6xT",
+        "description_8nnrGh",
+        "quantity_selector_8LcHwT",
+        "buy_buttons_g8ErK8",
+        "collapsible_tab_MbidRJ",
+        "collapsible_tab_e64fLc",
+        "collapsible_tab_WPXL3J"
+      ],
+      "custom_css": [
+        ".product-form__submit {color: black;}"
+      ],
+      "settings": {
+        "send_button_next_to_preselected_quantities": false,
+        "enable_sticky_info": false,
+        "color_scheme": "",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c_section_title_XH9bVw": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 5vw, 6rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "subheading",
+        "section_top_heading": "<p>Whats in your box</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_bundle_products_99pRJe": {
+      "type": "c-bundle-products",
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 5vw, 6rem); line-height: normal;}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "subheading",
+        "section_top_heading": "Whats in your box",
+        "paragraph": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>",
+        "flip": false,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "center",
+        "text_alignment": "center",
+        "button_text": "Ingredients",
+        "button_style": "c-b1",
+        "card_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "10% 10%",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 1,
+        "padding_bottom": 0
+      }
+    },
+    "c_faqs_tbjGER": {
+      "type": "c-faqs",
+      "blocks": {
+        "faq_ypq9cq": {
+          "type": "FAQ",
+          "settings": {
+            "faq_heading": "Do I need to drink FUNC every day?",
+            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "faq_BcjFpb": {
+          "type": "FAQ",
+          "settings": {
+            "faq_heading": "What products does func replace?",
+            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        },
+        "faq_f4KK39": {
+          "type": "FAQ",
+          "settings": {
+            "faq_heading": "How do I know if AG1 is right for me?",
+            "faq_answer": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_ypq9cq",
+        "faq_BcjFpb",
+        "faq_f4KK39"
+      ],
+      "custom_css": [
+        ".c-f-card {border: none; border-bottom: 1px solid #000;}",
+        ".c-f-grid-left {border-top: 1px solid #000;}"
+      ],
+      "settings": {
+        "use_grid": false,
+        "side": true,
+        "heading": "",
+        "paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "accent_color": "#242833",
+        "card_background": "linear-gradient(262deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 1) 100%)",
+        "faq_text_border": "#000000",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "FAQ",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "c_logos_4iEAjQ": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_7cDAVi": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        },
+        "logo_B8Wrea": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        },
+        "logo_Te7pnC": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_ac3MXK": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_BTcXb7": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_7cDAVi",
+        "logo_B8Wrea",
+        "logo_Te7pnC",
+        "logo_ac3MXK",
+        "logo_BTcXb7"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (max-width: 768px) {.c-l-wrapper {padding-top: 0; } .c-section {padding-top: 0; }}"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "",
+        "image_height": 1.9,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 60,
+        "marquee_padding_top": 2,
+        "marquee_padding_bottom": 2,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "c_main_product_PMAXMW",
+    "c_section_title_XH9bVw",
+    "c_bundle_products_99pRJe",
+    "c_faqs_tbjGER",
+    "c_logos_4iEAjQ"
+  ]
+}

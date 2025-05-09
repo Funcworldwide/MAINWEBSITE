@@ -1,0 +1,378 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c_link_tabs_7g7DLk": {
+      "type": "c-link-tabs",
+      "blocks": {
+        "item_wHiXQa": {
+          "type": "Item",
+          "settings": {
+            "use_active": true,
+            "block_text": "Bundles",
+            "block_subheading": "Block subheading here",
+            "block_link": "shopify://collections/bundles"
+          }
+        },
+        "item_B34WGf": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "CHILL",
+            "block_subheading": "Block subheading here",
+            "block_link": "shopify://collections/chill"
+          }
+        },
+        "item_pNiqmR": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "FOCUS",
+            "block_subheading": "Block subheading here",
+            "block_link": "shopify://collections/focus"
+          }
+        },
+        "item_Wekdia": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "Good for Gut",
+            "block_subheading": "Block subheading here",
+            "block_link": "shopify://collections/good-for-gut"
+          }
+        },
+        "item_UBfDzm": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "PERFORM",
+            "block_subheading": "Block subheading here",
+            "block_link": "shopify://collections/perform"
+          }
+        }
+      },
+      "block_order": [
+        "item_wHiXQa",
+        "item_B34WGf",
+        "item_pNiqmR",
+        "item_Wekdia",
+        "item_UBfDzm"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "button_style": "c-b1",
+        "accent_color": "#5d3be4",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "section_top_text_alignment": "center",
+        "padding_top": 1,
+        "padding_bottom": 1
+      }
+    },
+    "c_section_title_eNYjVY": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading > h2 {font-size: 110px; line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<h2> Find your func</h2>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 16
+      }
+    },
+    "featured_collection_MLXpqa": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".quick-add__submit:hover {background-color: #ff3d00 !important; color: white;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "description_text": "",
+        "description_poduct": true,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bundles",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c_logos_j39J7W": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_knDRG7": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        },
+        "logo_Xzk7Gh": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_iMQmjC": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_XwcaRQ": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        },
+        "logo_tyMqUN": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        },
+        "logo_RzBchE": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        },
+        "logo_U9Yh8L": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_iqygRT": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_NkJ6xU": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        },
+        "logo_QieUAY": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_knDRG7",
+        "logo_Xzk7Gh",
+        "logo_iMQmjC",
+        "logo_XwcaRQ",
+        "logo_tyMqUN",
+        "logo_RzBchE",
+        "logo_U9Yh8L",
+        "logo_iqygRT",
+        "logo_NkJ6xU",
+        "logo_QieUAY"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "AS SEEN ON:",
+        "image_height": 1.9,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 60,
+        "marquee_padding_top": 2,
+        "marquee_padding_bottom": 2,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    },
+    "c_hero_images_gptbVP": {
+      "type": "c-hero-images",
+      "blocks": {
+        "item_wnBNgf": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/chill-image.png",
+            "button_text": "EXPLORE",
+            "block_link": "",
+            "bottom_heading": "CHILL",
+            "bottom_paragraph": "<p>Unwind and recharge with Chill – a soothing blend crafted to help you relax, de-stress, and find<br/> your calm amidst the chaos.</p>"
+          }
+        },
+        "item_mi4CHH": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/focus-image.png",
+            "button_text": "EXPLORE",
+            "block_link": "",
+            "bottom_heading": "Focus",
+            "bottom_paragraph": "<p>Stay sharp with Focus – a functional drink designed to enhance concentration, mental clarity, and keep you in the zone when it matters most.</p>"
+          }
+        },
+        "item_D3CJbV": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/gg-image.png",
+            "button_text": "EXPLORE",
+            "block_link": "",
+            "bottom_heading": "GOOD FOR GUT",
+            "bottom_paragraph": "<p>Nourish your body with Good for Gut – a refreshing mix of gut-loving ingredients to support digestion and overall wellbeing from the inside out.</p>"
+          }
+        },
+        "item_ne4iaW": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/chill-image.png",
+            "button_text": "EXPLORE",
+            "block_link": "",
+            "bottom_heading": "PERFORM",
+            "bottom_paragraph": "<p>Unwind and recharge with Chill – a soothing blend crafted to help you relax, de-stress, and find your calm amidst the chaos.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_wnBNgf",
+        "item_mi4CHH",
+        "item_D3CJbV",
+        "item_ne4iaW"
+      ],
+      "custom_css": [
+        ".c-section {padding: 0 3rem !important; padding-bottom: 5rem !important;}",
+        ".c-button {display: none;}",
+        "@media (max-width: 768px) {.c-section {padding: 0 1.5rem !important; } .c-hi-item-bottom {gap: 0; padding-top: 10px; } .c-hi-item-bottom p {max-width: 200px; font-size: 11px; }}"
+      ],
+      "settings": {
+        "active_hover": true,
+        "c_breakpoint3": "768",
+        "grid_gap": 16,
+        "columns": 3,
+        "mobile_columns": 1,
+        "section_container": "",
+        "bg_color": "#ffffff",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "c_link_tabs_7g7DLk",
+    "c_section_title_eNYjVY",
+    "banner",
+    "product-grid",
+    "featured_collection_MLXpqa",
+    "c_logos_j39J7W",
+    "c_hero_images_gptbVP"
+  ]
+}

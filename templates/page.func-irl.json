@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c_section_title_c4nkHU": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading > h2 {font-size: clamp(3.5rem, 6vw, 7rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<h2>Func diary</h2>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_table_more_AjEVdT": {
+      "type": "c-table-more",
+      "blocks": {
+        "event_6DERHQ": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT.",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM",
+            "image_1": "shopify://shop_images/Group_10_1.png",
+            "image_2": "shopify://shop_images/Group_8_1.png",
+            "image_3": "shopify://shop_images/Group_5_2.png",
+            "image_4": "shopify://shop_images/Group_10_1.png",
+            "image_5": "shopify://shop_images/Group_8_1.png"
+          }
+        },
+        "event_hMJGMR": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_iGEDMR": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_feN3kU": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_GjhRYY": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_agJHRk": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_Fc7DpX": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        },
+        "event_6XnjCg": {
+          "type": "event",
+          "settings": {
+            "event_title": "NIKE RUN EVENT",
+            "event_location": "Location: The Design Museum, London",
+            "event_date": "16 January 2025",
+            "event_time": "Time: 7:00 PM"
+          }
+        }
+      },
+      "block_order": [
+        "event_6DERHQ",
+        "event_hMJGMR",
+        "event_iGEDMR",
+        "event_feN3kU",
+        "event_GjhRYY",
+        "event_agJHRk",
+        "event_Fc7DpX",
+        "event_6XnjCg"
+      ],
+      "settings": {
+        "use_event_modal": true,
+        "initial_rows": 7,
+        "full_width": false
+      }
+    },
+    "c_costum_form_8pgjAz": {
+      "type": "c-costum-form",
+      "custom_css": [],
+      "settings": {
+        "heading": "CURIOUS? COLLAB WITH FUNC",
+        "para_text": "<p>paragraph text</p>",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c_logos_dRUCB3": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_8qcdfb": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_9LqMEB": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_Y4jttW": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        },
+        "logo_nnLVkK": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        },
+        "logo_dzKeB4": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_8qcdfb",
+        "logo_9LqMEB",
+        "logo_Y4jttW",
+        "logo_nnLVkK",
+        "logo_dzKeB4"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "",
+        "image_height": 1.9,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 60,
+        "marquee_padding_top": 2,
+        "marquee_padding_bottom": 2,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c_section_title_c4nkHU",
+    "c_table_more_AjEVdT",
+    "c_costum_form_8pgjAz",
+    "c_logos_dRUCB3"
+  ]
+}

@@ -1,0 +1,881 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c_section_title_TzzKnB": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 9vw, 9rem); line-height: normal;}",
+        ".c-t-80 p {color: black !important;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#fe3403",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "THE HOME OF FUNCTIONAL DRINKS.",
+        "section_top_heading": "<p>MEET FUNC</p><p></p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 7,
+        "padding_bottom": 2
+      }
+    },
+    "c_meet_images_section_NAUgzT": {
+      "type": "c-meet-images-section",
+      "blocks": {
+        "item_nABrf7": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "Lewis",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/lewis.png",
+            "button_text": "",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_dByBga": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "Matt",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/M1.jpg",
+            "button_text": "",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_gLCXXD": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "Lewis",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/L1.jpg",
+            "button_text": "",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_nABrf7",
+        "item_dByBga",
+        "item_gLCXXD"
+      ],
+      "settings": {
+        "active_hover": false,
+        "c_breakpoint3": "768",
+        "grid_gap": 17,
+        "columns": 3,
+        "mobile_columns": 1,
+        "section_container": "",
+        "bg_color": "#ffffff",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c_section_title_VTK3nE": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-section {width: 50%; margin: 0 auto;}",
+        "p {font-size: 18px;}",
+        ".c-section-top {align-items: start;}",
+        ".c-section-top-subheading {font-family: \"ABCMonumentGroteskMono\";}",
+        "@media (max-width: 768px) {.c-section {width: 100%; }}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "HI! WE’RE FUNC!",
+        "section_top_subheading_2": "",
+        "section_top_heading": "",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "<p>FUNC is the home of functional drinks. Through our online platform, in-person events and ever-growing FUNC community, we curate the best of functional drinks, helping people find and experience drinks with a purpose. <br/><br/>We’re for the functional first-timers and the functional pros. We’re a community for the curious. And we live, breathe and drink functional.<br/><br/>Ash, Matt & Lewis</p>",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "left",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_TLQ9ij": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(4.2rem, 5vw, 6rem); line-height: normal;}",
+        "@media (max-width: 768px) {.c-section {padding-bottom: 0; padding-top: 0; margin-bottom: 36px; }}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "subheading",
+        "section_top_heading": "<p>WHY WE  EXIST</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_content_text_A6tQn7": {
+      "type": "c-content-text",
+      "custom_css": [
+        ".c-ct-image {border-radius: 20px;}",
+        ".c-section-top-subheading {margin: 0; font-family: \"ABCMonumentGroteskMono\";}",
+        "@media (max-width: 768px) {.c-section {margin-top: 0; padding-top: 20px; }}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "WHY WE EXIST",
+        "heading": "The Beginning",
+        "paragraph": "<p>In 2023, aged 26, Matt, one of FUNC's co-founders, was diagnosed with Pancreatitis. Adjusting to sober life, Matt discovered a world of alternatives (to alcohol) and a curious world - the world of functional drinks. Matt joined forces with co-founders Ash, a senior manager within FMCG and logistics and Lewis, Chief Operating Officer at a leading marketing agency, who had been researching the D2C and no- and low-alcohol sector. FUNC was born. </p>",
+        "image": "shopify://shop_images/The_Begining.jpg",
+        "flip": false,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "card_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "1rem 3rem",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_content_text_4qdMCH": {
+      "type": "c-content-text",
+      "custom_css": [
+        ".c-ct-image {border-radius: 20px;}",
+        ".c-section-top-subheading {margin: 0; font-family: \"ABCMonumentGroteskMono\";}",
+        "@media (max-width: 768px) {.c-section {margin-top: 0; padding-top: 20px; }}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "WHY WE EXIST",
+        "heading": "The vision",
+        "paragraph": "<p>The health, wellness and functional drinks space excites us. And the opportunities are limitless. We want to be the leader in functional, and we will bring our functional drinks brands and community partners on this journey. </p>",
+        "image": "shopify://shop_images/The_Vision.jpg",
+        "flip": true,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "card_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "1rem 3rem",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_content_text_xbRUWL": {
+      "type": "c-content-text",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-image {border-radius: 20px;}",
+        ".c-section-top-subheading {margin: 0; font-family: \"ABCMonumentGroteskMono\";}",
+        "@media (max-width: 768px) {.c-section {margin-top: 0; padding-top: 20px; }}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "WHY WE EXIST",
+        "heading": "The future",
+        "paragraph": "<p>The health, wellness and functional drinks space excites us. And the opportunities are limitless. We want to be the leader in functional, and we will bring our functional drinks brands and community partners on this journey.</p>",
+        "image": "shopify://shop_images/the_future_image.png",
+        "flip": false,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "card_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "1rem 3rem",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_GzEPBc": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 7vw, 8rem); line-height: clamp(3.5rem, 7vw, 8rem);}",
+        ".c-ct-heading p {margin-bottom: 0; margin-top: 0;}",
+        "@media (max-width: 768px) {.c-section {padding-bottom: 0; padding-top: 0; margin-bottom: 16px; }}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>THE FUNC FORMULA  </p><p>HOW WE CURATE</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_blocks_GdAT6r": {
+      "type": "c-blocks",
+      "blocks": {
+        "item_g8nxLi": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 1",
+            "block_heading": "<p>FUNCTIONAL</p><p> FIRST</p>",
+            "block_paragraph": "<p>Drinks on FUNC fuel your functions. Drinks with a purpose, always - helping you live, work and play at your best.</p>",
+            "block_image": "shopify://shop_images/drink_mate.png"
+          }
+        },
+        "item_nFT9a8": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 2",
+            "block_heading": "<p>UNIQUENESS </p><p>IN EVERY SIP</p>",
+            "block_paragraph": "<p>We partner with like-minded brands who are committed to health, wellness and connection in everything they do.</p>",
+            "block_image": "shopify://shop_images/drink_mate_40a5ec48-96f7-4f14-b84e-f632533a9e46.png"
+          }
+        },
+        "item_QMPcTD": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 3",
+            "block_heading": "<p>shared </p><p>values</p>",
+            "block_paragraph": "<p>We partner with like-minded brands who are committed to health, wellness and connection in everything they do.</p>",
+            "block_image": "shopify://shop_images/drink_mate_c967481a-1bed-49a4-8161-dfd254f1a648.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_g8nxLi",
+        "item_nFT9a8",
+        "item_QMPcTD"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "p {margin: 0;}",
+        "h3 {font-size: 3rem;}"
+      ],
+      "settings": {
+        "use_second_version_blocks": false,
+        "use_top_paragraph_initially": true,
+        "c_breakpoint3": "768",
+        "blocks_direction": "vertical",
+        "blocks_alignment": "left",
+        "icon_width": 3,
+        "section_container": "page-width",
+        "use_separator_boder": false,
+        "columns": 3,
+        "mobile_columns": 1,
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "accent_color": "#5d3be4",
+        "bg_color": "#ffffff",
+        "text_color": "#121212",
+        "blocks_background_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_4yVQBE": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 7vw, 8rem); line-height: clamp(3.5rem, 7vw, 8rem);}",
+        ".c-ct-heading p {margin-bottom: 0; margin-top: 0; text-align: center;}"
+      ],
+      "settings": {
+        "bg_color": "#f5f3f1",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>THE FUNC FORMULA </p><p>HOW WE CURATE</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 2
+      }
+    },
+    "c_blocks_GrAKQc": {
+      "type": "c-blocks",
+      "blocks": {
+        "item_MtX3MD": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 1",
+            "block_heading": "<p>FUNCTIONAL</p><p> FIRST</p>",
+            "block_paragraph": "<p>Drinks on FUNC fuel your functions. Drinks with a purpose, always - helping you live, work and play at your best.</p>",
+            "block_icon": "shopify://shop_images/Layer_1_1.png"
+          }
+        },
+        "item_Ff3V9Q": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 2",
+            "block_heading": "<p>UNIQUENESS</p><p> IN EVERY SIP</p>",
+            "block_paragraph": "<p>We partner with like-minded brands who are committed to health, wellness and connection in everything they do.</p>",
+            "block_icon": "shopify://shop_images/Layer_1_2.png"
+          }
+        },
+        "item_BVdgrt": {
+          "type": "Item",
+          "settings": {
+            "section_block_subheading": "STEP 3",
+            "block_heading": "<p>shared </p><p>values</p>",
+            "block_paragraph": "<p>We partner with like-minded brands who are committed to health, wellness and connection in everything they do.</p>",
+            "block_icon": "shopify://shop_images/Layer_1_3.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_MtX3MD",
+        "item_Ff3V9Q",
+        "item_BVdgrt"
+      ],
+      "custom_css": [
+        "p {margin: 0;}",
+        "h3 {font-size: 3rem;}",
+        ".c-ct-heading {color: white; font-size: clamp(36px, 4vw, 50px);}",
+        ".c-b-item {border-radius: 20px; padding: 1.5rem 1.5rem; min-height: 400px; justify-content: space-between;}",
+        ".p-bottom {font-size: 14px;}",
+        ".c-t-80 {width: 50%;}",
+        ".c-content-bottom {justify-content: end;}",
+        ".c-b-item-content {justify-content: start; height: fit-content;}",
+        "@media (max-width: 895px) and (min-width: 769px) {.c-ct-heading {font-size: 28px; }}",
+        "@media (max-width: 678px) {.c-t-80 {width: 100%; }}"
+      ],
+      "settings": {
+        "use_second_version_blocks": true,
+        "use_top_paragraph_initially": false,
+        "c_breakpoint3": "768",
+        "blocks_direction": "vertical",
+        "blocks_alignment": "center",
+        "icon_width": 4,
+        "section_container": "page-width",
+        "use_separator_boder": false,
+        "columns": 3,
+        "mobile_columns": 1,
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "accent_color": "#ffffff",
+        "bg_color": "#f5f3f1",
+        "text_color": "#ffffff",
+        "blocks_background_color": "#fe3403",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "<p>We’re picky because you deserve the best. Our 3-step FUNC Formula makes sure every drink on our platform is full of purpose, quality, and good vibes.</p>",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "c_centerpiece_second_UQyfMN": {
+      "type": "c-centerpiece-second",
+      "settings": {
+        "grid_template_columns": "1fr",
+        "grid_right_padding": "0rem 0rem",
+        "grid_right_padding_mobile": "2rem 0rem 0rem 0rem",
+        "c_breakpoint3": "768",
+        "flip": false,
+        "image_width": "100%",
+        "reviews_text": "",
+        "show_stars_review": false,
+        "star_color": "#5d3be4",
+        "heading": "DRINKS",
+        "paragraph": "",
+        "content_alignment": "center",
+        "text_alignment2": "center",
+        "section_container": "page-width",
+        "button_text": "",
+        "button_url": "",
+        "bg_color": "#ffffff",
+        "text_color": "#fe3403",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_c4nkHU": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 5vw, 6rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>Drinks that </p><p>do good.</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_gkXHWm": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 5vw, 6rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>that make us </p><p>feel good.</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_xpRGaT": {
+      "type": "c-section-title",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 5vw, 6rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>Drinks with </p><p>a purpose.</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_logos_pmmGW3": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_x6xkJj": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Agua_de_Madre.png",
+            "text": ""
+          }
+        },
+        "logo_VrcQm4": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Collider.png",
+            "text": ""
+          }
+        },
+        "logo_mTxtDm": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/OOM_LOGO_BLACK_RGB.png",
+            "text": ""
+          }
+        },
+        "logo_QkCUeE": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/ACV.png",
+            "text": ""
+          }
+        },
+        "logo_N9fWp9": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Adapt.png",
+            "text": ""
+          }
+        },
+        "logo_UJrki4": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Belly_Dance.png",
+            "text": ""
+          }
+        },
+        "logo_hTRTeJ": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/British_Hemp_Co.png",
+            "text": ""
+          }
+        },
+        "logo_TGDjdz": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Common.png",
+            "text": ""
+          }
+        },
+        "logo_DEkfCN": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Cure.png",
+            "text": ""
+          }
+        },
+        "logo_kDK8TW": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Dirtea.png",
+            "text": ""
+          }
+        },
+        "logo_JXhfGb": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Elixir.png",
+            "text": ""
+          }
+        },
+        "logo_f9fQJx": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FOY.png",
+            "text": ""
+          }
+        },
+        "logo_NKjWtJ": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Genie.png",
+            "text": ""
+          }
+        },
+        "logo_iYcgAY": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Yerb.png",
+            "text": ""
+          }
+        },
+        "logo_WMaaMf": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Hiro_Black-1200w.png",
+            "text": ""
+          }
+        },
+        "logo_FnfJJT": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Brite.png",
+            "text": ""
+          }
+        },
+        "logo_9JwbH6": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Holos.png",
+            "text": ""
+          }
+        },
+        "logo_Vbcq8C": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Living_Things.png",
+            "text": ""
+          }
+        },
+        "logo_wkwtXT": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/XOXO.png",
+            "text": ""
+          }
+        },
+        "logo_FFp9BG": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Juno.png",
+            "text": ""
+          }
+        },
+        "logo_HYwpN4": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Muudy.png",
+            "text": ""
+          }
+        },
+        "logo_RNA4MY": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/MOJU.webp",
+            "text": ""
+          }
+        },
+        "logo_Yk7kFd": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Jenki.png",
+            "text": ""
+          }
+        },
+        "logo_FFa7Xx": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Hip_Pop.png",
+            "text": ""
+          }
+        },
+        "logo_TAkYMy": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Unai.png",
+            "text": ""
+          }
+        },
+        "logo_tjTkLt": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Matcha_Yaad.png",
+            "text": ""
+          }
+        },
+        "logo_RXdEQt": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Punchy.png",
+            "text": ""
+          }
+        },
+        "logo_4MfFbk": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Riviera.png",
+            "text": ""
+          }
+        },
+        "logo_JWiMGg": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Phyto_Nectars.png",
+            "text": ""
+          }
+        },
+        "logo_ttU7Wg": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Dosha.png",
+            "text": ""
+          }
+        },
+        "logo_yrG499": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Mission.webp",
+            "text": ""
+          }
+        },
+        "logo_GgAKtd": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Phizz.webp",
+            "text": ""
+          }
+        },
+        "logo_izAAYq": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Hiro_Black-1200w.png",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_x6xkJj",
+        "logo_VrcQm4",
+        "logo_mTxtDm",
+        "logo_QkCUeE",
+        "logo_N9fWp9",
+        "logo_UJrki4",
+        "logo_hTRTeJ",
+        "logo_TGDjdz",
+        "logo_DEkfCN",
+        "logo_kDK8TW",
+        "logo_JXhfGb",
+        "logo_f9fQJx",
+        "logo_NKjWtJ",
+        "logo_iYcgAY",
+        "logo_WMaaMf",
+        "logo_FnfJJT",
+        "logo_9JwbH6",
+        "logo_Vbcq8C",
+        "logo_wkwtXT",
+        "logo_FFp9BG",
+        "logo_HYwpN4",
+        "logo_RNA4MY",
+        "logo_Yk7kFd",
+        "logo_FFa7Xx",
+        "logo_TAkYMy",
+        "logo_tjTkLt",
+        "logo_RXdEQt",
+        "logo_4MfFbk",
+        "logo_JWiMGg",
+        "logo_ttU7Wg",
+        "logo_yrG499",
+        "logo_GgAKtd",
+        "logo_izAAYq"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "AS SEEN ON:",
+        "image_height": 1.9,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 100,
+        "marquee_padding_top": 1,
+        "marquee_padding_bottom": 0,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c_section_title_TzzKnB",
+    "c_meet_images_section_NAUgzT",
+    "c_section_title_VTK3nE",
+    "c_section_title_TLQ9ij",
+    "c_content_text_A6tQn7",
+    "c_content_text_4qdMCH",
+    "c_content_text_xbRUWL",
+    "c_section_title_GzEPBc",
+    "c_blocks_GdAT6r",
+    "c_section_title_4yVQBE",
+    "c_blocks_GrAKQc",
+    "c_centerpiece_second_UQyfMN",
+    "c_section_title_c4nkHU",
+    "c_section_title_gkXHWm",
+    "c_section_title_xpRGaT",
+    "c_logos_pmmGW3"
+  ]
+}

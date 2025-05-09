@@ -1,0 +1,755 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "c_section_title_TzzKnB": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading > h2 {line-height: normal; font-size: clamp(36px, 6.67vw, 100px);}",
+        ".c-ct-heading h2 {max-width: 900px;}",
+        ".c-section-top {color: #1d1d1f !important;}",
+        "@media (max-width: 768px) {.c-section {padding-top: 1rem; padding-bottom: 2rem; }}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "FUNC IRL.",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<h2>WHERE </h2><h2>COMMUNITY AND </h2><h2>PURPOSE MEET</h2>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "<p>We curate pop-up events, activations and festivals.</p>",
+        "button_text": "EVENTS",
+        "button_url": "#event",
+        "button_style": "c-b1",
+        "button_text_2": "COLLAB",
+        "button_url_2": "#collab",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_hero_images_cc4M4q": {
+      "type": "c-hero-images",
+      "blocks": {
+        "item_hHXjYL": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/FUNC_IRL_Portrait_04.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_KayhRK": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/FUNC_IRL_Portrait_07.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_T94WUy": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/FUNC_IRL_Portrait_01.png",
+            "button_text": "",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_LmYiCB": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/FUNC_IRL_Portrait_06.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_3UDQjw": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/FUNC_IRL_Portrait_03.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_BLqRrN": {
+          "type": "Item",
+          "settings": {
+            "badge_text": "",
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_8_1.png",
+            "button_text": "",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_hHXjYL",
+        "item_KayhRK",
+        "item_T94WUy",
+        "item_LmYiCB",
+        "item_3UDQjw",
+        "item_BLqRrN"
+      ],
+      "custom_css": [
+        ".c-button {display: none;}"
+      ],
+      "settings": {
+        "active_hover": false,
+        "c_breakpoint3": "768",
+        "grid_gap": 17,
+        "columns": 3,
+        "mobile_columns": 1,
+        "section_container": "",
+        "bg_color": "#ffffff",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 3
+      }
+    },
+    "c_centerpiece_appear_M7gPEn": {
+      "type": "c-centerpiece-appear",
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(40px, 9vw, 130px); line-height: normal; max-width: 800px;}",
+        ".animated-title {max-width: max-content;}"
+      ],
+      "settings": {
+        "grid_template_columns": "1fr",
+        "grid_right_padding": "0rem 0rem",
+        "grid_right_padding_mobile": "0rem 0rem 0rem",
+        "c_breakpoint3": "768",
+        "flip": true,
+        "image_width": "40%",
+        "reviews_text": "",
+        "show_stars_review": false,
+        "star_color": "#5d3be4",
+        "heading": "COMMUNITY FOR THE",
+        "paragraph": "",
+        "content_alignment": "center",
+        "text_alignment2": "center",
+        "section_container": "page-width",
+        "button_text": "",
+        "button_url": "",
+        "bg_color": "#ff3d00",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    },
+    "c_centerpiece_n97PhV": {
+      "type": "c-centerpiece",
+      "disabled": true,
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(40px, 9vw, 130px); line-height: normal;}",
+        ".c-button {max-width: 118px;}"
+      ],
+      "settings": {
+        "grid_template_columns": "1fr",
+        "grid_right_padding": "0rem 0rem",
+        "grid_right_padding_mobile": "2rem 0rem 0rem 0rem",
+        "c_breakpoint3": "768",
+        "flip": true,
+        "image": "shopify://shop_images/image_38.png",
+        "image_width": "40%",
+        "reviews_text": "",
+        "show_stars_review": false,
+        "star_color": "#5d3be4",
+        "heading": "Community for the",
+        "paragraph": "",
+        "content_alignment": "center",
+        "text_alignment2": "center",
+        "section_container": "page-width",
+        "button_text": "COLLAB",
+        "button_url": "",
+        "bg_color": "#ff3d00",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_split_layout_Ta86FQ": {
+      "type": "c-split-layout",
+      "custom_css": [
+        ".c-ct-image {border-radius: 20px;}",
+        ".c-section-top-subheading {margin: 0;}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "",
+        "heading": "We love IRL",
+        "paragraph": "<p>We’re more than just an online platform. We bring together the best functional drinks and the best people. FUNC is where connection, wellbeing and purpose come alive.</p><p>Pop-up events, activations and festivals - we bring functional drinks to where life happens. Whether it’s pop-ups at music festivals, fitness and sports events, corporate wellness retreats and fashion shows, FUNC makes every moment more intentional and fun. </p><p>So far, we’ve curated 10+ events. From hosting intimate pilates and yoga workshops, co-hosting 150+ person run clubs in London and Paris and fuelling padel and pickleball tournaments in central London. We are just getting started. </p>",
+        "image": "shopify://shop_images/FUNC_IRL_Portrait_03.png",
+        "flip": false,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "card_bg_color": "#ff3d00",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "1rem 3rem",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_section_title_4wtftL": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading {line-height: normal; font-size: clamp(36px, 5vw, 60px); max-width: 1100px;}"
+      ],
+      "settings": {
+        "bg_color": "#f3f3f3",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>EVENTS CURATED BY US, </p><p>ENJOYED BY YOU, YOUR FUNCTIONAL </p><p>DRINKS EVENT PARTNER</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_logos_dRUCB3": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_pyPmCP": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/GYMNASIVM_logo_CMYK_ALT_stacked_Black.png",
+            "text": ""
+          }
+        },
+        "logo_GAK8Ux": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/ONE_Pickleball.png",
+            "text": ""
+          }
+        },
+        "logo_YfBaXQ": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/nike_PNG.png",
+            "text": ""
+          }
+        },
+        "logo_BXMqzd": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/The_Altitude_Centre_logo_stacked.jpg",
+            "text": ""
+          }
+        },
+        "logo_6Jixym": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Social_Wellness_Club_Logo_PNG.png",
+            "text": ""
+          }
+        },
+        "logo_Ft4dAX": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Deliveroo.jpg",
+            "text": ""
+          }
+        },
+        "logo_p6BVwK": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Decathlon.jpg",
+            "text": ""
+          }
+        },
+        "logo_CCYnrN": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/P3prmnt_black.png",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_pyPmCP",
+        "logo_GAK8Ux",
+        "logo_YfBaXQ",
+        "logo_BXMqzd",
+        "logo_6Jixym",
+        "logo_Ft4dAX",
+        "logo_p6BVwK",
+        "logo_CCYnrN"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "",
+        "image_height": 1.9,
+        "image_gap": 5,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 50,
+        "marquee_padding_top": 1,
+        "marquee_padding_bottom": 2,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 3,
+        "padding_bottom": 3
+      }
+    },
+    "c_images_slider_hQqnnA": {
+      "type": "c-images-slider",
+      "blocks": {
+        "item_MYf7hh": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_5_1.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_jynk9t": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_10.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_t3tXqR": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_8.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_fxjjEV": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_11.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_qmUxka": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_5_1.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_TDMNjb": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_10.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_3jJcc3": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_8.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        },
+        "item_YdMYbq": {
+          "type": "Item",
+          "settings": {
+            "block_heading": "",
+            "block_paragraph": "",
+            "block_image": "shopify://shop_images/Group_11.png",
+            "button_text": "LEARN MORE",
+            "block_link": "",
+            "bottom_heading": "",
+            "bottom_paragraph": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_MYf7hh",
+        "item_jynk9t",
+        "item_t3tXqR",
+        "item_fxjjEV",
+        "item_qmUxka",
+        "item_TDMNjb",
+        "item_3jJcc3",
+        "item_YdMYbq"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".c-button {display: none;}",
+        ".c-outside-button {display: block; background-color: white;}",
+        ".c-outside-button:hover {color: white; background-color: #ff3d00;}"
+      ],
+      "settings": {
+        "button_text": "Collab with FUNC",
+        "button_url": "",
+        "active_hover": false,
+        "c_breakpoint3": "768",
+        "grid_gap": 17,
+        "columns": 4,
+        "mobile_columns": 1,
+        "section_container": "",
+        "bg_color": "#f5f3f1",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 4
+      }
+    },
+    "c_split_layout_yiMEQW": {
+      "type": "c-split-layout",
+      "custom_css": [
+        ".c-ct-image {border-radius: 20px;}",
+        ".c-section-top-subheading {margin: 0;}"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "subheading": "",
+        "heading": "",
+        "paragraph": "<p>We don’t just talk about connection - we live it. FUNC drinks are enjoyed solo and together - sharing moments with friends, colleagues and teammates.</p><p>Every event is designed with purpose. From pop-up bars to tasting experiences, we help communities and companies find their groove. </p><p>Do more with FUNC. More choice, more intention and more connection. If you’re a community, company or event looking to collaborate, get in touch with FUNC.</p>",
+        "image": "shopify://shop_images/FUNC_IRL_Portrait_06.png",
+        "flip": true,
+        "full_width": false,
+        "grid_proportion": "1fr 1fr",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "card_bg_color": "#ff3d00",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_desktop": "10% 10%",
+        "padding_mobile": "2em 1em 1em 1em",
+        "padding_top": 0,
+        "padding_bottom": 1
+      }
+    },
+    "c_custom_liquid_bxniaF": {
+      "type": "c-custom-liquid",
+      "custom_css": [
+        "* {font-size: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_space": false,
+        "code": "<div id=\"event\">anchor</div>"
+      }
+    },
+    "c_section_title_c4nkHU": {
+      "type": "c-section-title",
+      "custom_css": [
+        ".c-ct-heading {font-size: clamp(3.5rem, 6vw, 7rem); line-height: normal;}"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "text_color": "#ff3d00",
+        "section_top_subheading": "",
+        "section_top_subheading_2": "",
+        "section_top_heading": "<p>FUNC EVENTS</p>",
+        "section_top_heading_2": "",
+        "section_top_paragraph": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "c-b1",
+        "button_text_2": "",
+        "button_url_2": "",
+        "button_style_2": "c-b1",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "c_table_more_AjEVdT": {
+      "type": "c-table-more",
+      "blocks": {
+        "event_6DERHQ": {
+          "type": "event",
+          "settings": {
+            "event_title": "Altitude Centre x FUNC",
+            "event_location": "The Altitude Centre, Shoreditch",
+            "event_date": "April 16th, 2025",
+            "event_time": "Time: 19:00",
+            "image_1": "shopify://shop_images/Group_10_1.png",
+            "image_2": "shopify://shop_images/Group_5_2.png",
+            "image_3": "shopify://shop_images/Group_8_1.png"
+          }
+        },
+        "event_hMJGMR": {
+          "type": "event",
+          "settings": {
+            "event_title": "Flow & Grow x The Ministry",
+            "event_location": "The Ministry, Borough",
+            "event_date": "April 5th, 2025",
+            "event_time": "Time: 09:00"
+          }
+        },
+        "event_CBkj4P": {
+          "type": "event",
+          "settings": {
+            "event_title": "FUNC x Social Wellness Club",
+            "event_location": "Myo, St. Pauls",
+            "event_date": "18th February, 2025",
+            "event_time": "Time: 18:00"
+          }
+        },
+        "event_iGEDMR": {
+          "type": "event",
+          "settings": {
+            "event_title": "Twenty Twenty Thrive",
+            "event_location": "Studio Brixton, London",
+            "event_date": "15th February, 2025",
+            "event_time": "Time: 10:00"
+          }
+        },
+        "event_feN3kU": {
+          "type": "event",
+          "settings": {
+            "event_title": "P3prmint x FUNC",
+            "event_location": "Sauna & Plunge, Shoreditch",
+            "event_date": "9th January, 2025",
+            "event_time": "Time: 10:00"
+          }
+        },
+        "event_GjhRYY": {
+          "type": "event",
+          "settings": {
+            "event_title": "Decathlon x One Pickleball",
+            "event_location": "Decathlon, Southwark",
+            "event_date": "30th November, 2024",
+            "event_time": "Time: 10:00"
+          }
+        },
+        "event_agJHRk": {
+          "type": "event",
+          "settings": {
+            "event_title": "Deliveroo x Flow & Grow",
+            "event_location": "Deliveroo HQ, Bank",
+            "event_date": "1st October, 2024",
+            "event_time": "Time: 18:00"
+          }
+        },
+        "event_Fc7DpX": {
+          "type": "event",
+          "settings": {
+            "event_title": "Pana Run Club x NIKE",
+            "event_location": "Mass Works, Paris",
+            "event_date": "24th August, 2024",
+            "event_time": "Time: 09:00"
+          }
+        },
+        "event_6XnjCg": {
+          "type": "event",
+          "settings": {
+            "event_title": "Juju Single Launch Party x FUNC",
+            "event_location": "The Love Shack, Cambridge Heath",
+            "event_date": "16th August, 2024",
+            "event_time": "Time: 19:00"
+          }
+        },
+        "event_zjnrfg": {
+          "type": "event",
+          "settings": {
+            "event_title": "Gymnasium x FUNC Sweat & Social",
+            "event_location": "Gymnasium, Brixton",
+            "event_date": "20th April, 2024",
+            "event_time": "Time: 18:00"
+          }
+        },
+        "event_hcriyY": {
+          "type": "event",
+          "settings": {
+            "event_title": "Lisa’s Living Club x FUNC",
+            "event_location": "The Move Method, Fulham",
+            "event_date": "5th April, 2024",
+            "event_time": "Time: 11:00"
+          }
+        }
+      },
+      "block_order": [
+        "event_6DERHQ",
+        "event_hMJGMR",
+        "event_CBkj4P",
+        "event_iGEDMR",
+        "event_feN3kU",
+        "event_GjhRYY",
+        "event_agJHRk",
+        "event_Fc7DpX",
+        "event_6XnjCg",
+        "event_zjnrfg",
+        "event_hcriyY"
+      ],
+      "custom_css": [
+        ".c-b1:hover {color: white; background-color: #ff3d00;}"
+      ],
+      "settings": {
+        "use_event_modal": false,
+        "initial_rows": 7,
+        "full_width": false
+      }
+    },
+    "c_custom_liquid_BzQ9LJ": {
+      "type": "c-custom-liquid",
+      "custom_css": [
+        "* {font-size: 0;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_space": true,
+        "code": "<div id=\"collab\">anchor 2</div>"
+      }
+    },
+    "c_costum_form_8pgjAz": {
+      "type": "c-costum-form",
+      "custom_css": [
+        ".field__input:focus {border: none; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field__input:hover {border: 1px solid #ff3d00; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field:after {border: none; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field:before {border: none; outline: none; box-shadow: none; border-radius: 20px;}"
+      ],
+      "settings": {
+        "heading": "CURIOUS? COLLAB WITH FUNC",
+        "para_text": "<p>Are you an event or festival organiser? Want to book FUNC for your office party? Maybe you just want to say hey. Give us a shout; share your story and we’ll be in touch.</p>",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c_section_title_TzzKnB",
+    "c_hero_images_cc4M4q",
+    "c_centerpiece_appear_M7gPEn",
+    "c_centerpiece_n97PhV",
+    "c_split_layout_Ta86FQ",
+    "c_section_title_4wtftL",
+    "c_logos_dRUCB3",
+    "c_images_slider_hQqnnA",
+    "c_split_layout_yiMEQW",
+    "c_custom_liquid_bxniaF",
+    "c_section_title_c4nkHU",
+    "c_table_more_AjEVdT",
+    "c_custom_liquid_BzQ9LJ",
+    "c_costum_form_8pgjAz"
+  ]
+}

@@ -1,0 +1,268 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c_link_tabs_FqBPGV": {
+      "type": "c-link-tabs",
+      "blocks": {
+        "item_wHiXQa": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "Bundles",
+            "block_subheading": "Block subheading here",
+            "block_link": ""
+          }
+        },
+        "item_B34WGf": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "CHILL",
+            "block_subheading": "Block subheading here",
+            "block_link": ""
+          }
+        },
+        "item_pNiqmR": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "FOCUS",
+            "block_subheading": "Block subheading here",
+            "block_link": ""
+          }
+        },
+        "item_Wekdia": {
+          "type": "Item",
+          "settings": {
+            "use_active": true,
+            "block_text": "Good for Gut",
+            "block_subheading": "Block subheading here",
+            "block_link": ""
+          }
+        },
+        "item_UBfDzm": {
+          "type": "Item",
+          "settings": {
+            "use_active": false,
+            "block_text": "PERFORM",
+            "block_subheading": "Block subheading here",
+            "block_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_wHiXQa",
+        "item_B34WGf",
+        "item_pNiqmR",
+        "item_Wekdia",
+        "item_UBfDzm"
+      ],
+      "settings": {
+        "c_breakpoint3": "768",
+        "button_style": "c-b1",
+        "accent_color": "#5d3be4",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "section_top_text_alignment": "center",
+        "padding_top": 1,
+        "padding_bottom": 1
+      }
+    },
+    "c_image_banner_A4CRFf": {
+      "type": "c-image-banner",
+      "settings": {
+        "subheading": "",
+        "heading": "GOOD FOR GUT",
+        "paragraph": "",
+        "section_url": "",
+        "button_text": "",
+        "button_style": "c-b1",
+        "image": "shopify://shop_images/gfg-banner.png",
+        "section_container": "",
+        "content_padding": "1.5em 10vw",
+        "content_padding_mobile": "1.5em 1em",
+        "x_alignment": "center",
+        "y_alignment": "center",
+        "text_alignment2": "center",
+        "overlay": 0.4,
+        "min_height": 10,
+        "use_fixed_height": false,
+        "fixed_height": 60,
+        "use_fixed_height_mobile": false,
+        "bg_color": "#ffffff",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "scheme-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".quick-add__submit:hover {background-color: #ff3d00 !important; color: white;}"
+      ],
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "standard",
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c_logos_V3GdVV": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_knDRG7": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        },
+        "logo_Xzk7Gh": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_iMQmjC": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_XwcaRQ": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        },
+        "logo_tyMqUN": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        },
+        "logo_RzBchE": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/puresport.svg",
+            "text": ""
+          }
+        },
+        "logo_U9Yh8L": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/stin-man.svg",
+            "text": ""
+          }
+        },
+        "logo_iqygRT": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/depop.svg",
+            "text": ""
+          }
+        },
+        "logo_NkJ6xU": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/Layer.svg",
+            "text": ""
+          }
+        },
+        "logo_QieUAY": {
+          "type": "Logo",
+          "settings": {
+            "block_image": "shopify://shop_images/FUNC.svg",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_knDRG7",
+        "logo_Xzk7Gh",
+        "logo_iMQmjC",
+        "logo_XwcaRQ",
+        "logo_tyMqUN",
+        "logo_RzBchE",
+        "logo_U9Yh8L",
+        "logo_iqygRT",
+        "logo_NkJ6xU",
+        "logo_QieUAY"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "AS SEEN ON:",
+        "image_height": 1.9,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 60,
+        "marquee_padding_top": 2,
+        "marquee_padding_bottom": 2,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ffffff",
+        "text_color": "#000000",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 2,
+        "padding_bottom": 2
+      }
+    }
+  },
+  "order": [
+    "c_link_tabs_FqBPGV",
+    "c_image_banner_A4CRFf",
+    "banner",
+    "product-grid",
+    "c_logos_V3GdVV"
+  ]
+}
