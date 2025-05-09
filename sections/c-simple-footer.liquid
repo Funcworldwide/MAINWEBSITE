@@ -1,0 +1,536 @@
+<style>
+  #{{ section.id }} {
+    font-size: 16px;
+    padding-top: {{ section.settings.padding_top }}em;
+    padding-bottom: {{ section.settings.padding_bottom }}em;
+    background: rgba(234, 232, 226, 0.5);
+  }
+
+  #{{ section.id }} .c-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em;
+    margin-bottom: 3em;
+  }
+
+  #{{ section.id }} .c-form-container p {
+    font-size:14px;
+    max-width:500px;
+    color:rgba(29, 29, 31, 0.5);
+  }
+
+  #{{ section.id }} .c-section-top-subheading,
+  #{{ section.id }} div,
+  #{{ section.id }} h2,
+  #{{ section.id }} h3 {
+    color: {{ section.settings.text_color }};
+  }
+
+  #{{ section.id }} .c-sf-heading {
+  font-size:22px;
+  margin-top:0;
+  max-width: 500px;
+}
+
+  #{{ section.id }} .c-sf-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    align-items: {{ section.settings.alignment }};
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+  #{{ section.id }} .c-sf-wrapper img {
+    width: {{ section.settings.image_width }}em;
+  }
+
+  #{{ section.id }} .c-buttons-div {
+    margin-top: 0em;
+  }
+
+  #{{ section.id }} .accordion {
+    border-radius: 4px;
+  }
+  
+  #{{ section.id }} .accordion-item {
+    border-bottom: 2px solid #1D1D1F;
+    margin-bottom: 1em;
+  }
+  
+  #{{ section.id }} .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    border: none !important;
+    cursor: pointer;
+    background: none;
+  }
+  
+  #{{ section.id }} .accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    margin-left:16px;
+  }
+  
+  #{{ section.id }} .accordion-link {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #1d1d1f;
+  }
+
+  #{{ section.id }} .newsletter-form {
+    align-items: flex-start;
+    margin:0;
+  }
+
+  #{{ section.id }} .field {
+    max-width: 500px;
+  }
+
+  .field:after {
+  box-shadow:none;
+ }
+
+ .field:before {
+  box-shadow:none;
+ }
+
+
+ .field__input {
+  border-radius:20px;
+  font-family:'arial' !important;
+  font-size:16px;
+  color: #C4C4C4;
+}
+
+.field__label {
+  border-radius:20px;
+  font-family:'arial' !important;
+  font-size:16px;
+  color: #C4C4C4 !important;
+}
+
+.accordion-title {
+  font-family: 'ABCMonumentGrotesk', sans-serif;
+  font-size:18px;
+}
+
+.icon-wrapper {
+  width:30px;
+  height:auto;
+}
+.c-social-icons {
+  display: flex;
+  flex-direction:row;
+  gap:10px;
+  margin-top:20px;
+}
+
+.field__button {
+  right:10px;
+  width:10rem;
+  font-size:16px;
+  color: #C4C4C4;
+  font-family:'ABC Monument Grotesk' !important;
+}
+
+
+  @media (max-width: 768px) {
+    #{{ section.id }} .c-section-grid {
+      grid-template-columns: 1fr;
+      gap: 1em;
+      margin-bottom: 2em;
+    }
+  }
+</style>
+
+
+<section id="{{ section.id }}" class="c-section">
+  <div class="page-width">
+    <div class="c-section-grid">
+      <div class="c-form-container">
+        {%- if section.settings.heading != empty -%}<h5 class="c-sf-heading">{{ section.settings.heading }}</h5>{%- endif -%}
+        {% form 'customer', class: 'newsletter-form' %}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <div
+            class="newsletter-form__field-wrapper{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            <div class="field">
+              <input
+                id="NewsletterForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="field__input"
+                value="{{ form.email }}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="Newsletter-error--{{ section.id }}"
+                {% elsif form.posted_successfully? %}
+                  aria-describedby="Newsletter-success--{{ section.id }}"
+                {% endif %}
+                placeholder="{{ 'newsletter.label' | t }}"
+                required
+              >
+              <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                Email Address
+              </label>
+              <button
+                type="submit"
+                class="newsletter-form__button field__button"
+                name="commit"
+                id="Subscribe"
+                aria-label="{{ 'newsletter.button_label' | t }}"
+              >
+                Subscribe
+              </button>
+            </div>
+            {%- if form.errors -%}
+              <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </small>
+            {%- endif -%}
+          </div>
+          {%- if form.posted_successfully? -%}
+            <h3
+              class="newsletter-form__message newsletter-form__message--success form__message"
+              id="Newsletter-success--{{ section.id }}"
+              tabindex="-1"
+              autofocus
+            >
+              {% render 'icon-success' -%}
+              {{- 'newsletter.success' | t }}
+            </h3>
+          {%- endif -%}
+        {% endform %}
+        {%- if section.settings.paragraph != empty -%}<p class="c-paragraph-form">{{ section.settings.paragraph_form }}</p>{%- endif -%}
+        <div class="c-social-icons">
+          {% if section.settings.instagram_url != blank %}
+            <a href="{{ section.settings.instagram_url }}" target="_blank" class="social-button">
+              <div class="icon-wrapper">
+                {% render 'icon-instagram' %}
+              </div>
+            </a>
+          {% endif %}
+        
+          {% if section.settings.tiktok_url != blank %}
+            <a href="{{ section.settings.tiktok_url }}" target="_blank" class="social-button">
+              <div class="icon-wrapper">
+                {% render 'icon-tiktok' %}
+              </div>
+            </a>
+          {% endif %}
+        </div>
+        
+      </div>
+      <div class="accordion">
+        {% for block in section.blocks %}
+          <div class="accordion-item">
+            <button class="accordion-header" type="button" data-target="#accordion-content-{{ block.id }}">
+              <span class="accordion-title">{{ block.settings.title }}</span>
+              <svg class="accordion-icon" width="10" height="11" viewBox="0 0 10 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4.5 10.2L4.5 6.18L0.539999 6.18L0.539999 4.84L4.5 4.84L4.5 0.82L5.92 0.82L5.92 4.84L9.88 4.84L9.88 6.18L5.92 6.18L5.92 10.2L4.5 10.2Z" fill="#1D1D1F"/>
+              </svg>
+            </button>
+      
+            <div class="accordion-content" id="accordion-content-{{ block.id }}">
+              {% if block.settings.link_1_text != blank %}
+                <a href="{{ block.settings.link_1_url }}" class="accordion-link">{{ block.settings.link_1_text }}</a>
+              {% endif %}
+              {% if block.settings.link_2_text != blank %}
+                <a href="{{ block.settings.link_2_url }}" class="accordion-link">{{ block.settings.link_2_text }}</a>
+              {% endif %}
+              {% if block.settings.link_3_text != blank %}
+                <a href="{{ block.settings.link_3_url }}" class="accordion-link">{{ block.settings.link_3_text }}</a>
+              {% endif %}
+              {% if block.settings.link_4_text != blank %}
+                <a href="{{ block.settings.link_4_url }}" class="accordion-link">{{ block.settings.link_4_text }}</a>
+              {% endif %}
+              {% if block.settings.link_5_text != blank %}
+                <a href="{{ block.settings.link_5_url }}" class="accordion-link">{{ block.settings.link_5_text }}</a>
+              {% endif %}
+              {% if block.settings.link_6_text != blank %}
+                <a href="{{ block.settings.link_6_url }}" class="accordion-link">{{ block.settings.link_6_text }}</a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
+    </div>
+    <div class="c-sf-wrapper">
+      {% if section.settings.image %}
+        {{ section.settings.image | image_url: width: 750 | image_tag: loading: 'lazy', height: 'auto' }}
+      {% endif %}
+      {%- if section.settings.button_text != empty -%}
+        <div class="c-buttons-div">
+          <a class="c-button c-b1" href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+        </div>
+      {%- endif -%}
+      {%- if section.settings.paragraph != empty -%}<div class="c-t-80">{{ section.settings.paragraph }}</div>{%- endif -%}
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+    accordionHeaders.forEach(header => {
+      header.addEventListener("click", function () {
+        const content = document.querySelector(this.dataset.target);
+        const icon = this.querySelector(".accordion-icon");
+
+        this.classList.toggle("active");
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          icon.style.transform = "rotate(0deg)"; 
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          icon.style.transform = "rotate(45deg)"; 
+        }
+      });
+    });
+  });
+</script>
+
+
+{% schema %}
+  {
+    "name": "C Footer",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "range",
+        "id": "image_width",
+        "label": "Image width",
+        "min": 1,
+        "max": 50,
+        "step": 0.5,
+        "default": 5,
+        "unit": "rem"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "heading",
+        "label": "Heading",
+        "default": "<em>Your</em> heading"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph_form",
+        "label": "Paragraph"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "<p>© 2024 Step Labs. All rights reserved.</p>"
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text",
+        "default": "Buy Now"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button Link"
+      },
+      {
+        "type": "header",
+        "content": "Section Colors"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 4,
+        "step": 0.1,
+        "default": 3,
+        "unit": "rem"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "min": 0,
+        "max": 4,
+        "step": 0.1,
+        "default": 3,
+        "unit": "rem"
+      },
+      {
+        "type": "url",
+        "id": "instagram_url",
+        "label": "Instagram URL"
+      },
+      {
+        "type": "url",
+        "id": "tiktok_url",
+        "label": "TikTok URL"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "accordion_item",
+        "name": "Accordion Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Accordion Title",
+            "default": "Accordion Title"
+          },
+          {
+            "type": "text",
+            "id": "link_1_text",
+            "label": "Link 1 Text",
+            "default": "Link 1"
+          },
+          {
+            "type": "url",
+            "id": "link_1_url",
+            "label": "Link 1 URL"
+          },
+          {
+            "type": "text",
+            "id": "link_2_text",
+            "label": "Link 2 Text",
+            "default": "Link 2"
+          },
+          {
+            "type": "url",
+            "id": "link_2_url",
+            "label": "Link 2 URL"
+          },
+          {
+            "type": "text",
+            "id": "link_3_text",
+            "label": "Link 3 Text",
+            "default": "Link 3"
+          },
+          {
+            "type": "url",
+            "id": "link_3_url",
+            "label": "Link 3 URL"
+          },
+          {
+            "type": "text",
+            "id": "link_4_text",
+            "label": "Link 4 Text",
+            "default": "Link 4"
+          },
+          {
+            "type": "url",
+            "id": "link_4_url",
+            "label": "Link 4 URL"
+          },
+          {
+            "type": "text",
+            "id": "link_5_text",
+            "label": "Link 5 Text",
+            "default": "Link 5"
+          },
+          {
+            "type": "url",
+            "id": "link_5_url",
+            "label": "Link 5 URL"
+          },
+          {
+            "type": "text",
+            "id": "link_6_text",
+            "label": "Link 6 Text",
+            "default": "Link 6"
+          },
+          {
+            "type": "url",
+            "id": "link_6_url",
+            "label": "Link 6 URL"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "C Footer"
+      }
+    ]
+  }
+{% endschema %}

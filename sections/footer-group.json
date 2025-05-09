@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "c_simple_footer_zkr6nQ": {
+      "type": "c-simple-footer",
+      "blocks": {
+        "accordion_item_xfdeYw": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "Shop",
+            "link_1_text": "Link 1",
+            "link_1_url": "",
+            "link_2_text": "Link 2",
+            "link_2_url": "",
+            "link_3_text": "Link 3",
+            "link_3_url": "",
+            "link_4_text": "Link 4",
+            "link_4_url": "",
+            "link_5_text": "Link 5",
+            "link_5_url": "",
+            "link_6_text": "Link 6",
+            "link_6_url": ""
+          }
+        },
+        "accordion_item_H9WVmm": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "Explore",
+            "link_1_text": "Explore",
+            "link_1_url": "",
+            "link_2_text": "Link 2",
+            "link_2_url": "",
+            "link_3_text": "Link 3",
+            "link_3_url": "",
+            "link_4_text": "Link 4",
+            "link_4_url": "",
+            "link_5_text": "Link 5",
+            "link_5_url": "",
+            "link_6_text": "Link 6",
+            "link_6_url": ""
+          }
+        },
+        "accordion_item_cNpNAV": {
+          "type": "accordion_item",
+          "settings": {
+            "title": "Support",
+            "link_1_text": "Link 1",
+            "link_1_url": "",
+            "link_2_text": "Link 2",
+            "link_2_url": "",
+            "link_3_text": "Link 3",
+            "link_3_url": "",
+            "link_4_text": "Link 4",
+            "link_4_url": "",
+            "link_5_text": "Link 5",
+            "link_5_url": "",
+            "link_6_text": "Link 6",
+            "link_6_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_item_xfdeYw",
+        "accordion_item_H9WVmm",
+        "accordion_item_cNpNAV"
+      ],
+      "custom_css": [
+        ".field__input:focus {border: none; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field__input:hover {border: 1px solid #ff3d00; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field:after {border: none; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".field:before {border: none; outline: none; box-shadow: none; border-radius: 20px;}",
+        ".accordion {border-bottom: none !important;}",
+        ".field__button {font-family: \"Arial\" !important;}",
+        ".accordion-title {font-family: \"ABCMonumentGrotesk\", sans-serif; font-size: 18px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FUNC.png",
+        "image_width": 15.5,
+        "heading": "Subscribe to FUNC <em>emails for exclusive updates.</em>",
+        "paragraph_form": "<p>Registration for the newsletter is subject to our privacy policy. Of course you can cancel your subscription at any time.</p>",
+        "paragraph": "",
+        "alignment": "flex-start",
+        "text_alignment": "left",
+        "button_text": "",
+        "button_url": "",
+        "text_color": "#000000",
+        "padding_top": 3,
+        "padding_bottom": 3,
+        "instagram_url": "https://www.instagram.com/func.world/",
+        "tiktok_url": "https://www.tiktok.com/@func.world?_t=ZN-8vAiTIismso&_r=1"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list_ykRV6X": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
+        "image_qd4jRF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FUNC.png",
+            "image_width": 275,
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_ykRV6X",
+        "image_qd4jRF"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "c_simple_footer_zkr6nQ",
+    "footer"
+  ]
+}

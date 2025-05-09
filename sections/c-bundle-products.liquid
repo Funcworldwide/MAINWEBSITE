@@ -1,0 +1,512 @@
+{% style %}
+
+#{{ section.id }} {
+    font-size: 16px;
+    padding-top: {{ section.settings.padding_top }}em;
+    padding-bottom: {{ section.settings.padding_bottom }}em;
+    background-color: {{ section.settings.bg_color }};
+  }
+
+#{{ section.id }} .c-section-top {
+    align-items: {{ section.settings.section_top_alignment }};
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+#{{ section.id }} .c-bundle-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width:100%;
+}
+
+#{{ section.id }} .c-ct-heading {
+    font-family: Polka, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FF3D00;
+    margin-bottom:40px;
+  }
+
+  #{{ section.id }} .c-bundle-image {
+    max-width: 100%;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  #{{ section.id }} .c-bundle-item p {
+    line-height:18px;
+    color:#16171F;
+    max-width: 220px;
+    font-weight: 400;
+  }
+
+  #{{ section.id }} .c-button {
+    border:none;
+    border-radius:100px;
+    padding:10px 24px;
+  }
+
+  #{{ section.id }} .c-button:hover {
+    cursor:pointer;
+    background:#FF3D00;
+    color:#ffffff;
+  }
+
+  #{{ section.id }} .c-div-button {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom:30px;
+  }
+
+  #{{ section.id }} .c-b1 {
+      padding: 8px 20px;
+      text-decoration: none;
+      background-color: #EFEFEF;
+      color: #2E2E2E;
+      font-size: 16px;
+      text-align: center;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+  }
+
+  #{{ section.id }} .c-b1:hover {
+      background-color: #FF3D00;
+      color:white;
+  }
+
+  #{{ section.id }} .c-bundle-buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    #{{ section.id }} .c-toggle-btn {
+      padding: 8px 14px;
+      text-decoration: none;
+      background-color: #EFEFEF;
+      color: #2E2E2E;
+      font-size: 16px;
+      text-align: center;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    #{{ section.id }} .c-toggle-btn.active {
+      background-color: #FF3D00;
+      color:white;
+    }
+
+    #{{ section.id }} .c-bundle-content {
+        min-height: 50px; 
+    }
+
+    #{{ section.id }} .c-content {
+        display: none; 
+    }
+
+    #{{ section.id }} .c-content.active {
+        display: block; 
+    }
+
+  @media (max-width:768px) {
+    #{{ section.id }} .c-bundle-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+{% endstyle %}
+
+<section id="{{ section.id }}" class="c-section">
+  <div class="{% if section.settings.full_width == false %}page-width{% endif %}">
+      <div class="c-section-top">
+          {% if section.settings.section_top_heading != empty %}
+              <h2 class="c-ct-heading">{{ section.settings.section_top_heading }}</h2>
+          {% endif %}
+          <div class="c-div-button">
+            {%- if section.settings.button_text != empty -%}        
+              <div class="c-buttons-div">
+                <a class="c-button {{ section.settings.button_style }}" href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+              </div>
+            {%- endif -%}
+            {%- if section.settings.button_text_2 != empty -%}
+              <div class="c-buttons-div">
+                <a class="c-button {{ section.settings.button_style_2 }}" href="{{ section.settings.button_url_2 }}">{{ section.settings.button_text_2 }}</a>
+              </div>  
+            {%- endif -%}
+          </div>
+      </div>
+      {% assign bundles = product.metafields.bundles.included_products %}
+      {% if bundles %}
+        <div class="c-bundle-grid">
+          {% for bundle_product in bundles.value %}
+              <div class="c-bundle-item">
+                  <img 
+                      src="{{ bundle_product.images[0].src | image_url: width: 230 }}" 
+                      class="c-bundle-image"
+                      data-image1="{{ bundle_product.images[0].src | image_url: width: 230 }}"
+                      {% if bundle_product.images[1] %}
+                          data-image2="{{ bundle_product.images[1].src | image_url: width: 230 }}"
+                      {% endif %}
+                      height="auto"
+                  >
+      
+                  <h3>{{ bundle_product.title }}</h3>
+                  <div class="c-bundle-buttons">
+                      <button class="c-toggle-btn active" data-toggle="description">Description</button>
+                      <button class="c-toggle-btn" data-toggle="ingredients">Ingredients</button>
+                  </div>     
+                  <div class="c-bundle-content">
+                      <div class="c-content description-content active">
+                          <p>{{ bundle_product.description }}</p>
+                      </div>      
+                      {% assign ingredients = bundle_product.metafields.custom.ingredients.value %}
+                      {% if ingredients and ingredients.children %}
+                          <div class="c-content ingredients-content">
+                              <ul>
+                                  {% for list in ingredients.children %}
+                                      {% if list.children %}
+                                          {% for item in list.children %}
+                                              <li>
+                                                  {% for content in item.children %}
+                                                      {{ content.value }}
+                                                  {% endfor %}
+                                              </li>
+                                          {% endfor %}
+                                      {% endif %}
+                                  {% endfor %}
+                              </ul>
+                          </div>
+                      {% else %}
+                          <div class="c-content ingredients-content">
+                              <p>No ingredients available</p>
+                          </div>
+                      {% endif %}
+                  </div>
+              </div>
+          {% endfor %}
+      </div>
+      {% endif %}
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".c-bundle-image").forEach((image) => {
+          const image1 = image.getAttribute("data-image1");
+          const image2 = image.getAttribute("data-image2");
+
+          if (image2) {
+              image.addEventListener("mouseenter", function () {
+                  image.src = image2;
+              });
+
+              image.addEventListener("mouseleave", function () {
+                  image.src = image1;
+              });
+          }
+      });
+  });
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".c-bundle-image").forEach((image) => {
+        const image1 = image.getAttribute("data-image1");
+        const image2 = image.getAttribute("data-image2");
+
+        if (image2) {
+            image.style.transition = "opacity 0.5s ease-in-out";
+
+            image.addEventListener("mouseenter", function () {
+                this.style.opacity = "0.7";
+                setTimeout(() => {
+                    this.src = image2;
+                    this.style.opacity = "1";
+                }, 300);
+            });
+
+            image.addEventListener("mouseleave", function () {
+                this.style.opacity = "0.7";
+                setTimeout(() => {
+                    this.src = image1;
+                    this.style.opacity = "1";
+                }, 300);
+            });
+        }
+    });
+});
+
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".c-bundle-item").forEach(bundle => {
+        const buttons = bundle.querySelectorAll(".c-toggle-btn");
+        const descriptionContent = bundle.querySelector(".description-content");
+        const ingredientsContent = bundle.querySelector(".ingredients-content");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", function() {
+                buttons.forEach(btn => btn.classList.remove("active"));
+                this.classList.add("active");
+
+                descriptionContent.classList.remove("active");
+                ingredientsContent.classList.remove("active");
+
+                if (this.dataset.toggle === "description") {
+                    descriptionContent.classList.add("active");
+                } else {
+                    ingredientsContent.classList.add("active");
+                }
+            });
+        });
+    });
+});
+</script>
+
+{% schema %}
+  {
+    "name": "C Bundle Products",
+    "blocks": [
+      {
+        "name": "Item",
+        "type": "Item",
+        "limit": 50,
+        "settings": [
+          {
+            "type": "text",
+            "id": "block_heading",
+            "label": "Block heading",
+            "default": "Text here"
+          }
+        ]
+      }
+    ],
+    "settings": [
+      {
+      "type": "text",
+      "label": "Breakpoint 3",
+      "id": "c_breakpoint3",
+      "default": "768",
+      "info": "Defines the responsive breakpoint for grid adjustments (in pixels)."
+    },
+      {
+        "type": "image_picker",
+        "id": "small_image",
+        "label": "Small image"
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading",
+        "default": "subheading"
+      },
+      {
+        "type": "text",
+        "id": "section_top_heading",
+        "label": "Heading",
+        "default": "My heading"
+      },
+      {
+        "type": "richtext",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video Upload"
+      },
+      {
+        "type": "checkbox",
+        "id": "flip",
+        "label": "Flip",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Full width?",
+        "default": false
+      },
+      {
+        "type": "select",
+        "id": "grid_proportion",
+        "label": "Grid proportion",
+        "default": "1fr 1fr",
+        "options": [
+          {
+            "value": "1fr 1fr",
+            "label": "1 | 1"
+          },
+          {
+            "value": "1fr 0.75fr",
+            "label": "1 | 0.75"
+          },
+          {
+            "value": "0.75fr 1fr",
+            "label": "0.75 | 1"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "alignment",
+        "label": "Content alignment",
+        "default": "flex-start",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "left",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Button"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "c-b1"
+      },
+      {
+        "type": "text",
+        "id": "button_text_2",
+        "label": "Button text 2"
+      },
+      {
+        "type": "url",
+        "id": "button_url_2",
+        "label": "Button Link 2"
+      },
+      {
+        "type": "text",
+        "id": "button_style_2",
+        "label": "Button style 2",
+        "default": "c-b1"
+      },
+      {
+        "type": "header",
+        "content": "Section Colors"
+      },
+      {
+        "type": "color",
+        "id": "card_bg_color",
+        "label": "Card background color",
+        "default": "transparent"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Content Padding"
+      },
+      {
+        "type": "paragraph",
+        "content": "2 values (with units) seprated by a space. The first value is for the y-direction padding and the second for the x-direction padding"
+      },
+      {
+        "type": "text",
+        "id": "padding_desktop",
+        "label": "Content padding",
+        "default": "10% 10%"
+      },
+      {
+        "type": "text",
+        "id": "padding_mobile",
+        "label": "Content padding mobile",
+        "default": "2em 1em 1em 1em"
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 15,
+        "step": 1,
+        "default": 4,
+        "unit": "rem"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "min": 0,
+        "max": 15,
+        "step": 1,
+        "default": 4,
+        "unit": "rem"
+      }
+    ],
+    "presets": [
+      {
+        "name": "C Bundle Products"
+      }
+    ]
+  }
+{% endschema %}

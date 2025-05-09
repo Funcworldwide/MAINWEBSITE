@@ -1,0 +1,255 @@
+<style>
+  #{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}rem;
+    padding-bottom: {{ section.settings.padding_bottom }}rem;
+    background-color: {{ section.settings.bg_color }};
+  }
+
+  #{{ section.id }} div,
+  #{{ section.id }} h2,
+  #{{ section.id }} h3 {
+    color: {{ section.settings.text_color }};
+  }
+
+  #{{ section.id }} .c-section-top-subheading {
+    color: black;
+  }
+
+  #{{ section.id }} .c-section-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: {{ section.settings.section_top_alignment }};
+    text-align: {{ section.settings.text_alignment }};
+  }
+
+  #{{ section.id }} .c-ct-heading > h2{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #{{ section.id }} .c-ct-heading p{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #{{ section.id }} .c-buttons-div {
+    margin-top:16px;
+  }
+
+  #{{ section.id }} .c-t-80 {
+    color:black !important;
+  }
+
+  #{{ section.id }} .c-t-80 p {
+    color:black !important;
+  }
+
+  #{{ section.id }} .c-div-button {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+  }
+
+  @media (max-width: 768px) {
+    .c-section {
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .c-ct-heading > h2 {
+    font-family: Polka, sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FF3D00;
+  }
+
+</style>
+
+
+<section id="{{ section.id }}" class="c-section">
+  <div class="page-width">
+    <div class="c-section-top">
+      {% if section.settings.section_top_subheading != empty %}<p class="c-section-top-subheading">{{ section.settings.section_top_subheading }}</p>{% endif %}
+      {% if section.settings.section_top_heading != empty %}<div class="c-ct-heading">{{ section.settings.section_top_heading }}</div>{% endif %}
+      {% if section.settings.section_top_heading_2 != empty %}
+      <h2 class="c-ct-heading">{{ section.settings.section_top_heading_2 }}</h2>{% endif %}
+      {% if section.settings.section_top_paragraph != empty %}<p class="c-t-80">{{ section.settings.section_top_paragraph }}</p>{% endif %}
+      {% if section.settings.section_top_subheading_2 != empty %}<p class="c-section-top-subheading">{{ section.settings.section_top_subheading_2 }}</p>{% endif %}
+      <div class="c-div-button">
+      {%- if section.settings.button_text != empty -%}        
+        <div class="c-buttons-div">
+          <a class="c-button {{ section.settings.button_style }}" href="{{ section.settings.button_url }}">{{ section.settings.button_text }}</a>
+        </div>
+      {%- endif -%}
+      {%- if section.settings.button_text_2 != empty -%}
+        <div class="c-buttons-div">
+          <a class="c-button {{ section.settings.button_style_2 }}" href="{{ section.settings.button_url_2 }}">{{ section.settings.button_text_2 }}</a>
+        </div>  
+      {%- endif -%}
+    </div>
+    </div>
+    <div class=""></div>
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "C Section Title",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section Colors"
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default": "#fff"
+      },
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "#000"
+      },
+      {
+        "type": "header",
+        "content": "Section Top"
+      },
+      {
+        "type": "text",
+        "id": "section_top_subheading",
+        "label": "Subheading",
+        "default": "subheading"
+      },
+      {
+        "type": "text",
+        "id": "section_top_subheading_2",
+        "label": "Subheading 2",
+        "default": "subheading"
+      },
+      {
+        "type": "richtext",
+        "id": "section_top_heading",
+        "label": "Heading",
+        "default": "<h2>My heading</h2>"
+      },
+      {
+        "type": "richtext",
+        "id": "section_top_heading_2",
+        "label": "Heading 2"
+      },
+      {
+        "type": "richtext",
+        "id": "section_top_paragraph",
+        "label": "Paragraph",
+        "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>"
+      },
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button Link"
+      },
+      {
+        "type": "text",
+        "id": "button_style",
+        "label": "Button style",
+        "default": "c-b1"
+      },
+      {
+        "type": "text",
+        "id": "button_text_2",
+        "label": "Button text 2"
+      },
+      {
+        "type": "url",
+        "id": "button_url_2",
+        "label": "Button Link 2"
+      },
+      {
+        "type": "text",
+        "id": "button_style_2",
+        "label": "Button style 2",
+        "default": "c-b1"
+      },
+      {
+        "type": "select",
+        "id": "section_top_alignment",
+        "label": "Section Top Alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "flex-start",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "flex-end",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "label": "Padding top",
+        "min": 0,
+        "max": 15,
+        "step": 1,
+        "default": 4,
+        "unit": "rem"
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "label": "Padding bottom",
+        "min": 0,
+        "max": 15,
+        "step": 1,
+        "default": 4,
+        "unit": "rem"
+      }
+    ],
+    "presets": [
+      {
+        "name": "C Section Title"
+      }
+    ]
+  }
+{% endschema %}

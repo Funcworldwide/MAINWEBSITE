@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "c_logos_CJ33k9": {
+      "type": "c-logos",
+      "blocks": {
+        "logo_N7PkjB": {
+          "type": "Logo",
+          "settings": {
+            "text": "Free Shipping Over £50"
+          }
+        },
+        "logo_GNqWhK": {
+          "type": "Logo",
+          "settings": {
+            "text": "Free Shipping Over £50"
+          }
+        },
+        "logo_H7BKqQ": {
+          "type": "Logo",
+          "settings": {
+            "text": "Free Shipping Over £50"
+          }
+        },
+        "logo_VmAwdk": {
+          "type": "Logo",
+          "settings": {
+            "text": "Free Shipping Over £50"
+          }
+        },
+        "logo_dKfPYG": {
+          "type": "Logo",
+          "settings": {
+            "text": "Free Shipping Over £50"
+          }
+        }
+      },
+      "block_order": [
+        "logo_N7PkjB",
+        "logo_GNqWhK",
+        "logo_H7BKqQ",
+        "logo_VmAwdk",
+        "logo_dKfPYG"
+      ],
+      "custom_css": [
+        ".c-l-image-div {font-weight: 400; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "show_middle": false,
+        "heading": "",
+        "image_height": 3.6,
+        "image_gap": 6,
+        "image_gap_mobile": 4,
+        "container_width": 10,
+        "marquee_speed": 60,
+        "marquee_padding_top": 0,
+        "marquee_padding_bottom": 0,
+        "direction": "-100%",
+        "toggle_pause_on_hover": false,
+        "full_width": true,
+        "grayscale_logo_colors": false,
+        "invert_logo_colors": false,
+        "bg_middle_color": "#ffffff",
+        "bg_color": "#ff3d00",
+        "text_color": "#ffffff",
+        "section_top_subheading": "",
+        "section_top_heading": "",
+        "section_top_paragraph": "",
+        "section_top_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "header": {
+      "type": "header",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-2",
+        "menu_color_scheme": "scheme-2",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "c_header_3tjRt6": {
+      "type": "c-header",
+      "custom_css": [
+        ".header-wrapper {background: rgba(236, 236, 236, 0.4); backdrop-filter: blur(80px); -webkit-backdrop-filter: blur(80px); max-height: 57px !important; padding-top: 0; padding-bottom: 0;}",
+        ".header__icon--account {display: none;}",
+        ".link:hover {text-decoration: none !important;}",
+        ".header__menu-item:hover {text-decoration: none !important;}",
+        ".header__menu-item {text-decoration: none !important;}"
+      ],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "new-main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "always",
+        "show_line_separator": false,
+        "color_scheme": "",
+        "menu_color_scheme": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "c_logos_CJ33k9",
+    "header",
+    "c_header_3tjRt6"
+  ]
+}
